@@ -2,8 +2,35 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+h1,
+h2,
+h3,
+h4,
+p {
+  font-family: 'roboto', sans-serif;
+  color: white;
+}
+a {
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+}
+a:hover {
+  color: #f1f1f1;
+}
+h1 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+h2 {
+  font-size: 1.25rem;
+}
+h3 {
+  font-size: 1rem;
+}
+h4 {
+  font-size: 1rem;
+}
+.nav-item {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: large;
 }

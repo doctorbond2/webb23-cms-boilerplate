@@ -4,3 +4,7 @@ dist
 .env
 localhost*
 .vercel
+.env.local
+.env.development
+.env.test
+.env.production
